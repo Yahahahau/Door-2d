@@ -40,7 +40,7 @@ class BootScene extends Phaser.Scene {
         this.anims.create({
             key: 'idle',
             frames: pick(['idle', 'idle-2', 'idle-3', 'idle-4', 'idle-5', 'idle-6', 'idle-7', 'idle-8']),
-            frameRate: 8,
+            frameRate: 12,
             repeat: -1
         });
 
@@ -49,7 +49,7 @@ class BootScene extends Phaser.Scene {
             key: 'walk',
             frames: pick(['Walk', 'Walk-2', 'Walk-3', 'Walk-4', 'Walk-5', 'Walk-6',
                           'Walk-7', 'Walk-8', 'Walk-9', 'Walk-10', 'Walk-11', 'Walk-12']),
-            frameRate: 10,
+            frameRate: 12,
             repeat: -1
         });
 
@@ -57,7 +57,7 @@ class BootScene extends Phaser.Scene {
         this.anims.create({
             key: 'run',
             frames: pick(['Run', 'Run-2', 'Run-3', 'Run-4', 'Run-5', 'Run-6']),
-            frameRate: 10,
+            frameRate: 12,
             repeat: -1
         });
 
@@ -66,7 +66,7 @@ class BootScene extends Phaser.Scene {
             key: 'crouch-idle',
             frames: pick(['Crouch-idle', 'Crouch-idle-2', 'Crouch-idle-3', 'Crouch-idle-4',
                           'Crouch-idle-5', 'Crouch-idle-6', 'Crouch-idle-7', 'Crouch-idle-8']),
-            frameRate: 8,
+            frameRate: 12,
             repeat: -1
         });
 
@@ -76,7 +76,7 @@ class BootScene extends Phaser.Scene {
             frames: pick(['Crouch-walk', 'Crouch-walk-2', 'Crouch-walk-3', 'Crouch-walk-4',
                           'Crouch-walk-5', 'Crouch-walk-6', 'Crouch-walk-7', 'Crouch-walk-8',
                           'Crouch-walk-9', 'Crouch-walk-10', 'Crouch-walk-11', 'Crouch-walk-12']),
-            frameRate: 10,
+            frameRate: 12,
             repeat: -1
         });
     }
